@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         IMDB: Custom List Header Button
 // @namespace    http://tampermonkey.net/
-// @version      1.0
+// @version      1.1
 // @description  Add custom list button to Header.
 // @author       Alex Brodnicki
 // @match        https://www.imdb.com/*
