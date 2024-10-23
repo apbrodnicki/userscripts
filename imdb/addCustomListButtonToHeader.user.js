@@ -1,13 +1,13 @@
 // ==UserScript==
 // @name         IMDB: Custom List Header Button
 // @namespace    http://tampermonkey.net/
-// @version      1.1
+// @version      1.0
 // @description  Add custom list button to Header.
 // @author       Alex Brodnicki
 // @match        https://www.imdb.com/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=imdb.com
-// @updateURL    https://raw.githubusercontent.com/apbrodnicki/userscripts/refs/heads/main/imdb/addCustomListButtonToHeader.js
-// @downloadURL  https://raw.githubusercontent.com/apbrodnicki/userscripts/refs/heads/main/imdb/addCustomListButtonToHeader.js
+// @updateURL    https://github.com/apbrodnicki/userscripts/raw/refs/heads/main/imdb/addCustomListButtonToHeader.user.js
+// @downloadURL  https://github.com/apbrodnicki/userscripts/raw/refs/heads/main/imdb/addCustomListButtonToHeader.user.js
 // @grant        none
 // ==/UserScript==
 
@@ -16,8 +16,6 @@
 */
 (function() {
 	'use strict';
-
-	console.log('test')
 
 	let attempts = 0;
 	const maxAttempts = 5;

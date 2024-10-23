@@ -6,8 +6,8 @@
 // @author       Alex Brodnicki
 // @match        https://www.imdb.com/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=imdb.com
-// @updateURL    https://raw.githubusercontent.com/apbrodnicki/userscripts/refs/heads/main/imdb/addCustomFiltersToLists.js
-// @downloadURL  https://raw.githubusercontent.com/apbrodnicki/userscripts/refs/heads/main/imdb/addCustomFiltersToLists.js
+// @updateURL    https://github.com/apbrodnicki/userscripts/raw/refs/heads/main/imdb/addCustomFiltersToLists.user.js
+// @downloadURL  https://github.com/apbrodnicki/userscripts/raw/refs/heads/main/imdb/addCustomFiltersToLists.user.js
 // @grant        none
 // ==/UserScript==
 
