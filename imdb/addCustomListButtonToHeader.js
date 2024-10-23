@@ -20,7 +20,7 @@
 	let attempts = 0;
 	const maxAttempts = 10;
 
-	const customListLink = '/list/ls542149947/?ref_=uspf_t_1&sort=my_ratings%2Cdesc&view=detailed';
+	const customListLink = '/list/ls542149947/';
 	const customListTitle = 'Movies and Shows Archive';
 
 	const addCustomListButtonToHeader = () => {
