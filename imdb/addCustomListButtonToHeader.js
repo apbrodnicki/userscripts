@@ -17,6 +17,8 @@
 (function() {
 	'use strict';
 
+	console.log('test')
+
 	let attempts = 0;
 	const maxAttempts = 5;
 
