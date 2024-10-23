@@ -18,9 +18,9 @@
 	'use strict';
 
 	let attempts = 0;
-	const maxAttempts = 10;
+	const maxAttempts = 5;
 
-	const customListLink = '/list/ls542149947/';
+	const customListPath = '/list/ls542149947/';
 	const customListTitle = 'Movies and Shows Archive';
 
 	const addCustomListButtonToHeader = () => {
@@ -32,7 +32,7 @@
 			const watchlistCloneLink = watchlistClone.children[0];
 
 			watchlist.insertAdjacentElement('afterend', watchlistClone);
-			watchlistCloneLink.setAttribute('href', customListLink);
+			watchlistCloneLink.setAttribute('href', customListPath);
 			watchlistCloneLink.children[1].innerHTML = customListTitle;
 
 			clearInterval(interval);
