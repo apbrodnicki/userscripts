@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         IMDB: Custom List Filters
 // @namespace    http://tampermonkey.net/
-// @version      1.0
+// @version      1.1
 // @description  Add custom filters to lists on load.
 // @author       Alex Brodnicki
 // @match        https://www.imdb.com/*
@@ -20,6 +20,7 @@
 	// 'list path': 'query parameter filters'
 	const listsWithFilters = {
 		'user/ur188698730/watchlist': '?sort=release_date%2Casc&view=detailed', // Watchlist
+		'user/ur188698730/ratings': '?sort=my_ratings%2Cdesc&view=detailed', // Ratings
 		'list/ls542149947': '?sort=my_ratings%2Cdesc&view=detailed', // Movies and Shows Archive
 		'list/ls542228347': '?sort=release_date%2Casc&view=detailed' // Booby
 	};
