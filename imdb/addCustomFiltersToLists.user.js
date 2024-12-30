@@ -21,8 +21,10 @@
 	const listsWithFilters = {
 		'user/ur188698730/watchlist': '?sort=release_date%2Casc&view=detailed', // Watchlist
 		'user/ur188698730/ratings': '?sort=my_ratings%2Cdesc&view=detailed', // Ratings
+		'user/ur188698730/checkins' : '?sort=release_date%2Casc&view=detailed', // Check-Ins
 		'list/ls542149947': '?sort=my_ratings%2Cdesc&view=detailed', // Movies and Shows Archive
-		'list/ls542228347': '?sort=release_date%2Casc&view=detailed' // Booby
+		'list/ls542228347': '?sort=release_date%2Casc&view=detailed', // Booby
+		'list/ls595577082': '?sort=alpha%2Casc&view=detailed' // Favorite People Archive
 	};
 
 	for (const list in listsWithFilters) {
