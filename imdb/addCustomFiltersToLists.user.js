@@ -19,12 +19,13 @@
 
 	// 'list path': 'query parameter filters'
 	const listsWithFilters = {
-		'user/ur188698730/watchlist': '?sort=release_date%2Casc&view=detailed', // Watchlist
+		'user/ur188698730/watchlist': '?sort=date_added%2Casc&view=detailed', // Watchlist
 		'user/ur188698730/ratings': '?sort=my_ratings%2Cdesc&view=detailed', // Ratings
-		'user/ur188698730/checkins' : '?sort=release_date%2Casc&view=detailed', // Check-Ins
+		'user/ur188698730/checkins' : '?sort=release_date%2Casc&view=detailed', // Check-ins
 		'list/ls542149947': '?sort=my_ratings%2Cdesc&view=detailed', // Movies and Shows Archive
-		'list/ls542228347': '?sort=release_date%2Casc&view=detailed', // Booby
-		'list/ls595577082': '?sort=alpha%2Casc&view=detailed' // Favorite People Archive
+		'list/ls542228347': '?sort=date_added%2Casc&view=detailed', // Booby
+		'list/ls595577082': '?sort=alpha%2Casc&view=detailed', // Favorite People Archive
+		'list/ls4157850798': '?sort=release_date%2Casc&view=detailed' // Cinema
 	};
 
 	for (const list in listsWithFilters) {
